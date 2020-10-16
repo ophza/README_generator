@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const { makeBadge, ValidationError } = require('badge-maker')
 
 // Questions for the user
 const form = [
